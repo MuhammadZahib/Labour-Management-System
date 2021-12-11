@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rvbackground"
+    android:orientation="vertical"
+    tools:context=".SideActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="PROFILE"
+                android:textColor="@color/btnbackground"
+                android:textSize="40sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/engineer"
+                    app:civ_border_width="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/edit_prrofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profile!"
+                    android:textColor="@color/btnbackground"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/kk"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="you are logged in as"
+
+                />
+
+            <TextView
+                android:id="@+id/mainEmail"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Email"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_cnic_side"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="CNIC"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/current_password"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Current Password"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/nw_password"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:hint="Enter new Password"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/updateCredentil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@color/btnbackground"
+                android:text="Update Credentials"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@color/btnbackground"
+                android:layout_marginBottom="10dp"
+                android:text="Logout">
+
+            </Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

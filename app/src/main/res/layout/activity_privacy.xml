@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main"
+    tools:context=".Setting.PrivacyActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Privay Policy"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="We are clearly declare that the users data is stored in database if any malicious or unauthorized activity is happend by the side of user he/she will responsible for it.We are maintaining your chats as well as data shared by the user."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Terms And Conditions"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Note: The Labour visiting fee is 100 Pakistani rupees so the user is bound to give that visiting fee to the labour either working deal is making or not. Otherwise user will responsible for not paying labour the visiting fee."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

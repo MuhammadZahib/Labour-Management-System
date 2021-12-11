@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Labour Management System</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="category">
+        <item>Domestic Cleaning</item>
+        <item>Carpet Cleaning</item>
+        <item>Car Wash</item>
+        <item>Dry Cleaning</item>
+        <item>Electrician</item>
+        <item>Split AC Service</item>
+        <item>Mechanic</item>
+        <item>Plumber</item>
+        <item>Makeup Artist</item>
+        <item>Mens Barber</item>
+        <item>Women Barber</item>
+        <item>Civil Engineer</item>
+        <item>Painter</item>
+        <item>Dress Maker</item>
+        <item>Packaging Service</item>
+        <item>Event Organizer</item>
+        <item>Security Guard</item>
+        <item>CCTV</item>
+        <item>Carpenter</item>
+        <item>Interior Designer</item>
+        <item>Cooking Tutor</item>
+        <item>Home Tutor</item>
+        <item>Tailor</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SubClass.RequestActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="Kindly Fill the Details Form To Confirm Booking"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/engineer"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Name"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter your Complete Address"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_location_on_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/completeAddress_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Phone Number"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phone_request"
+                    android:fontFamily="sans-serif"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    >
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Rough Price Estimate in Rupee"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_attach_money_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/priceEstimate_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Work Description"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_description_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/description_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date :"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/txt_date_request"
+                    android:layout_width="wrap_content"
+                    android:editable="false"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_height="wrap_content"
+                    android:hint="Tap Here to Select Date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time :"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/txt_time_request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Please enter time"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/confirm_booking_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/btnbackground"
+                android:layout_marginTop="30dp"
+                android:text="Confirm Booking"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.labourmanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LabourManagementSystem">
+        <activity android:name=".SubRequests.WomenRequestActivity"></activity>
+        <activity android:name=".SubClass.RequestActivity" />
+        <activity android:name=".SubClass.TailorActivity" />
+        <activity android:name=".SubClass.DressMakerActivity" />
+        <activity android:name=".SubClass.InteriorActivity" />
+        <activity android:name=".SubClass.CarpenterActivity" />
+        <activity android:name=".SubClass.HomeTutorActivity" />
+        <activity android:name=".SubClass.CookingActivity" />
+        <activity android:name=".SubClass.CctvActivity" />
+        <activity android:name=".SubClass.GuardActivity" />
+        <activity android:name=".SubClass.PainterActivity" />
+        <activity android:name=".SubClass.CivilActivity" />
+        <activity android:name=".SubClass.MakeupActivity" />
+        <activity android:name=".SubClass.WomenSaloonActivity" />
+        <activity android:name=".SubClass.MenSaloonActivity" />
+        <activity android:name=".SubClass.PlumberActivity" />
+        <activity android:name=".SubClass.MechanicActivity" />
+        <activity android:name=".SubClass.SplitAcActivity" />
+        <activity android:name=".SubClass.ElectricianActivity" />
+        <activity android:name=".SubClass.PackActivity" />
+        <activity android:name=".SubClass.DryCleaningActivity" />
+        <activity android:name=".SubClass.DomesticCleaningActivity" />
+        <activity android:name=".SubClass.CarFurActivity" />
+        <activity android:name=".SubClass.CarWashActivity" />
+        <activity android:name=".SubClass.ServiceData" />
+        <activity android:name=".GigActivity" />
+        <activity
+            android:name=".Setting.PrivacyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.EventActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.PackagingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.EngineerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.ConstructionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.FittingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.BeautyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.SecurityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.LessonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sub.DressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CleaningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

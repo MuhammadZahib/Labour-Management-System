@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "206356148969",
+    "project_id": "labour-manage-system",
+    "storage_bucket": "labour-manage-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206356148969:android:eb279691c1024ab986f678",
+        "android_client_info": {
+          "package_name": "com.example.labourmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206356148969-afnkv6kc0871bg3t1onues8fnc6m7rr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.labourmanagementsystem",
+            "certificate_hash": "d9afc9d392aad33148ae24dec6523a9e94e5472c"
+          }
+        },
+        {
+          "client_id": "206356148969-1f4di78emtep4vce53j89ns5h2eea0kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChM6OU1t0OhBDfFGBm7HOg1DuUa4v5yDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206356148969-1f4di78emtep4vce53j89ns5h2eea0kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

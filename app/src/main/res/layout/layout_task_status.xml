@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="2dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Name: "
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/cname_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="zohooh"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skill For: "
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/skill_task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zohooh" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Status: "
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/task_stauts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="zohooh"/>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/new_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Enter new Price in Rs"/>
+        <Button
+            android:id="@+id/btn_task_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Set Task Complete"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/edit_task_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"/>
+
+
+            <Button
+                android:id="@+id/details_task_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Bill"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
